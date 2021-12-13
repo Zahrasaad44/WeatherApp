@@ -19,7 +19,7 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
-    //a5d23dd3a1a5f9ba668176695ff35e2a
+
     private var city = "10001"
     private var APIKey = "a5d23dd3a1a5f9ba668176695ff35e2a"
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             imm?.hideSoftInputFromWindow(this.currentFocus?.windowToken, 0)
             binding.zipRL.isVisible = false
         }
-//Weather App assignment. It uses Coroutines. Parsing JSON without Retrofit.
+
     }
 
 
